@@ -1,0 +1,2 @@
+# ELEGOO_MARS_ONE-REBIRTH-WebUI-Controller-Project-
+これは初代Elegoo Marsの3.5インチタッチスクリーン式操作パネルが故障して操作不可能になり、リペアパーツの3.5インチ操作パネルが入手困難になってきたことをきっかけに、通常の操作パネルを取り外して迎い化した状態でもRaspberry pi zero w をChituboardのUART通信からWebUIで操作・印刷可能にした個人プロジェクトである。
