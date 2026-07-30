@@ -17,7 +17,7 @@
 ・Chituboard （現在開発中に使用しているメインボードは古いBタイプ）
 ・LM2596 電圧レギュレータ DCコンバータ (Dc/dc 12v>5v Step/down){RpiZeroWの電源用}
 ・MicroSDカード 2Gb以上 
-（カスタムOSイメージは超軽量で約1.5GBしか使用しないため、2GB以上（4GB/8GB推奨）のMicroSDカードであれば完璧に動作します。）
+（カスタムOSイメージは超軽量で約2.1GBしか使用しないため、4GB以上（4GB/8GB推奨）のMicroSDカードであれば完璧に動作します。）
 ・Rasperry Pi、LM2596コンバーターとChituboardを繋げるための電気線5本。
   接続：（5V, GND x2,TX, RX ）
 
