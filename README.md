@@ -84,3 +84,22 @@ OctoPrintで制御を行おうとしたが、最終的にRaspberry pi Zero Wで�
 ・ご意見やアイディアなどがあれば受け入れる場合もあり得るのでコメントなどを送って頂いても構いません。
 ・トラブルなどのサポートはできる保証はないので期待しない様に。
 ・このプログラムのビルドや使用中に発生した機器の故障などはすべて自己責任ですのでご了承ください。
+
+＜Rasperry Pi Zero W / IDLE状態で待機中の動作確認＞：
+*Rasperry Pi OS Lite 32-bit Legacy
+
+*MicroSD使用量:
+Filesystem Size  Used Avail Use% 
+__________ 6.8G  2.1G  4.4G  33% 
+
+*メモリー使用率：
+               total        used        free      shared  buff/cache   available
+Mem:             427         112         224           2         141         315
+Swap:            511           0         511
+
+*システム全体の温度とクロック状態：
+temp=29.9'C
+
+＜結論＞：
+独自に開発したこのWebUIコントローラーはRaspberry pi Zero Wの性能でも充分に安定した動作を得られ、軽量であることが証明された。
+（デスクトップGUI無しのLite版OSを使用しているため、RAM消費量はわずか約60MBです。Pi Zero Wの512MB RAMで全く無理なく、極めて安定して動作します。）
